@@ -55,7 +55,7 @@ export class App extends React.Component<{}, State> {
           <h1 className="title">No goods selected</h1>
         )}
 
-<table className="table">
+        <table className="table">
           <tbody>
             {goods.map(good => {
               return (
